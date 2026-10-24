@@ -25,8 +25,7 @@ export const site = {
   about: [
     "I'm a software engineer with over a year of professional experience, working on an enterprise platform that global brands use to explore their market data.",
     "I like work where the data is big and the interface still has to feel instant. My days mix Angular screens, .NET services and Elasticsearch queries, so I see a feature from the click to the index.",
-    "Replace this paragraph with what you care about: clean code, performance, learning a new codebase fast, or what you do outside work.",
-  ],
+    ],
   stats: [
     { value: "1+", label: "years in production" },
     { value: "3+", label: "global brands on the platform" },
