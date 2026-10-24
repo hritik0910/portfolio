@@ -5,7 +5,7 @@ export const site = {
   headline: "I build the tools people decide with.",
   intro:
     "Software engineer working on a large enterprise analytics platform. I turn heavy data into fast, clear interfaces.",
-  email: "you@example.com",
+  email: "hritik.s.0910@gmail.com",
   links: [
   {
     label: "GitHub",
