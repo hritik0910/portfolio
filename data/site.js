@@ -1,6 +1,6 @@
 // Edit everything here. The page reads from this file.
 export const site = {
-  name: "Your Name",
+  name: "Hritik Srivastava",
   role: "Software Engineer",
   headline: "I build the tools people decide with.",
   intro:
