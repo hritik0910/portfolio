@@ -36,6 +36,7 @@ export default function Home() {
       </div>
 
       <nav className="nav glass" aria-label="Sections">
+        <a href="#home" className="brand">{site.name}</a>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>

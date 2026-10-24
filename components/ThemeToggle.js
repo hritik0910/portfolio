@@ -3,10 +3,10 @@ import { useEffect, useState } from "react";
 
 // Switches between light and dark and remembers the choice.
 export default function ThemeToggle() {
-  const [theme, setTheme] = useState("dark");
+  const [theme, setTheme] = useState("light");
 
   useEffect(() => {
-    setTheme(document.documentElement.dataset.theme || "dark");
+    setTheme(document.documentElement.dataset.theme || "light");
   }, []);
 
   const flip = () => {

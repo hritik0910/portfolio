@@ -17,13 +17,14 @@ export default function Hero({ name, role, headline, intro, stack }) {
         <p className="pill glass">
           <span className="dot" /> Open to opportunities
         </p>
+        <p className="hello">Hi, I'm <strong>{name}</strong></p>
         <h1>{headline}</h1>
         <p className="lead">{intro}</p>
         <div className="cta">
           <a className="btn primary" href="#work">See my work</a>
           <a className="btn glass" href="#contact">Get in touch</a>
         </div>
-        <p className="who">{name} · {role}</p>
+        <p className="who">{role}</p>
       </div>
 
       <div className="chip glass c-a" style={depth(60)}>{stack[0]}</div>

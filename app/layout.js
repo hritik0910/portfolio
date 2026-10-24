@@ -1,11 +1,12 @@
 import { Unbounded, Manrope } from "next/font/google";
 import "./globals.css";
+import { site } from "../data/site";
 
 const display = Unbounded({ subsets: ["latin"], variable: "--font-display", weight: ["500", "700"] });
 const body = Manrope({ subsets: ["latin"], variable: "--font-body" });
 
 export const metadata = {
-  title: "Hritik Srivastava– Software Engineer",
+  title: `${site.name} – ${site.role}`,
   description: "Software engineer building data and analytics products with Angular, .NET and Elasticsearch.",
 };
 
